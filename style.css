@@ -1,0 +1,21 @@
+.container img{
+    margin-top: 10px;
+}
+
+h3{
+    border-bottom: 1px solid rgb(216, 214, 214);
+}
+
+.button{
+	background-color: white;
+	border: 1px solid rgb(216, 214, 214);
+	border-radius: 50%;
+	height: 90px;
+	width: 90px;
+}
+
+th, td{
+	font-size: 12px;
+}
+
+
