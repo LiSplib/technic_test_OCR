@@ -11,6 +11,8 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <!-- Stylesheet CSS-->
         <link rel ="stylesheet" href="style.css">
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class="container">
@@ -26,41 +28,38 @@
                 <table class="table">
                     <thead>
                         <tr>
-                        	<!--Pour aligner le contenu-->
-                            <th scope="col" style="border-bottom: none"><button class="button" style="border:none"><span class="fa fa-star"></span>
+                            <th scope="col"><span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span>
                                 <span class="fa fa-star-half-o"></span>
                                 <span class="fa fa-star-o"></span>
-                                <span class="fa fa-star-o"></span></button>
-                            </th> 
-                            <!--Pour supprimer la bordure du tableau-->                           
-                            <th scope="col" style="border-bottom: none; text-align: center"><button class="button">€€</button></th>
-                            <th scope="col" style="border-bottom: none; text-align: center"><button class="button">45 mn</button></th>
-                            <th scope="col" style="border-bottom: none; text-align: center"><button class="button">0 mn</button></th>
-                            <th scope="col" style="border-bottom: none; text-align: center"><button class="button">10 mn</button></th>
+                                <span class="fa fa-star-o"></span>
+                            </th>
+                            <th scope="col"><i class="fa fa-eur" aria-hidden="true"></i><i class="fa fa-eur" aria-hidden="true"></i></th>
+                            <th scope="col">45 mn</th>
+                            <th scope="col">0 mn</th>
+                            <th scope="col">10 mn</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                        	<!--Pour supprimer la bordure du tableau--> 
-                            <td style="border-top: none">Difficulty</td>
-                            <td style="border-top: none; text-align: center">Cost</td>
-                            <td style="border-top: none; text-align: center">Preparation<br>Time</td>
-                            <td style="border-top: none; text-align: center">Cooking<br>Time</td>
-                            <td style="border-top: none; text-align: center">Resting<br>Time</td>
+                            <td>Difficulty</td>
+                            <td>Cost</td>
+                            <td>Preparation<br>Time</td>
+                            <td>Cooking<br>Time</td>
+                            <td>Resting<br>Time</td>
                         </tr>
                     </tbody>
                 </table>
                 <h3>Ingredients</h3>
                 <p>Servings: <strong>-</strong> 4 <strong>+</strong></p>
                 <table class="table table-striped">
-                	<thead>
-                        <tr style="border-top: 1px solid rgb(216, 214, 214)">
+                    <thead>
+                          <tr>
                             <th scope="col">#</th>
                             <th scope="col">Name</th>
                             <th scope="col">Quantly</th>
                             <th scope="col">Metric</th>
-                        </tr>
+                          </tr>
                     </thead>
                     <tbody>
                         <tr>
@@ -89,7 +88,9 @@
                         </tr>
                     </tbody>
                 </table>
-                <p>List of the recipe ingredients</p>
+                <a href="#">List of the recipe ingredients</a>
+            
+
             </div>
         </div>
     </body>
